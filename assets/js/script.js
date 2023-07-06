@@ -3,7 +3,7 @@ const menu = document.querySelector('.nav__items');
 
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.toggle('open');
- 
+
 });
 
 const btn = document.querySelector('.burger');
@@ -14,11 +14,17 @@ btn.addEventListener('click', () => {
 });
 
 
-const link = document.querySelector('.item__link');
-
-link.addEventListener('click', () => {
-  link.classList.toggle('item__link--active');
- 
+$(function () {
+  $('.professionals__items').slick({
+    slidesToShow: 3,
+    arrows: false,
+    dots: false,
+    infinite: true,
+    variableWidth: true,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    centerMode: true,
+  });
 });
-
 

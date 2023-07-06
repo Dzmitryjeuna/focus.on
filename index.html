@@ -11,6 +11,8 @@
   <title>Focus.on - Foto  and video studio for every moment in your life</title>
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,11 +33,11 @@
         <span></span>
       </button>
       <ul class="nav__items">
-        <li class="nav__item"><a class="item__link" href="#">Photo</a></li>
-        <li class="nav__item"><a class="item__link" href="#">Video</a></li>
-        <li class="nav__item"><a class="item__link" href="#">Portfolio</a></li>
-        <li class="nav__item"><a class="item__link" href="#">Contact</a></li>
-        <li class="nav__item"><a class="item__link-btn" href="#">Contact us</a></li>
+        <li class="nav__item"><a class="item__link" href="#photo">Photo</a></li>
+        <li class="nav__item"><a class="item__link" href="#video">Video</a></li>
+        <li class="nav__item"><a class="item__link" href="#portfolio">Portfolio</a></li>
+        <li class="nav__item"><a class="item__link" href="#contact">Contact</a></li>
+        <li class="nav__item"><a class="link-btn" href="#">Contact us</a></li>
       </ul>
     </nav>
   </div>
@@ -51,7 +53,7 @@
   </div>
   </section>
   <section class="about">
-    <div class="container">
+    <div class="container-small">
       <div class="about__inner">
         <h3 class="section-title about__title">ABOUT STUDIO</h3>
         <p class="about__text">We won't talk much about ourselves!</p>
@@ -64,14 +66,29 @@
     <h3 class="section-title professionals__title"> Our professionals</h3>
     <div class="professionals__items">
       <div class="professionals__item">
+        <img class="professionals__item-img" src="assets/img/professionals-1-1.jpg" alt="">
+        <h4 class="professionals__item-name">David Robertson</h4>
+        <p class="professionals__item-descr">photographer with 5 years of experience</p>
+      </div>
+      <div class="professionals__item">
         <img class="professionals__item-img" src="assets/img/professionals-2.jpg" alt="">
         <h4 class="professionals__item-name">Joey Tribbiani</h4>
         <p class="professionals__item-descr">photographer for over 6 years</p>
       </div>
       <div class="professionals__item">
-        <img class="professionals__item-img" src="assets/img/professionals-1.jpg" alt="">
+        <img class="professionals__item-img" src="assets/img/professionals-3.jpg" alt="">
+        <h4 class="professionals__item-name">Joey Tribbiani</h4>
+        <p class="professionals__item-descr">photographer for over 6 years</p>
+      </div>
+      <div class="professionals__item">
+        <img class="professionals__item-img" src="assets/img/professionals-1-1.jpg" alt="">
         <h4 class="professionals__item-name">David Robertson</h4>
         <p class="professionals__item-descr">photographer with 5 years of experience</p>
+      </div>
+      <div class="professionals__item">
+        <img class="professionals__item-img" src="assets/img/professionals-2.jpg" alt="">
+        <h4 class="professionals__item-name">Joey Tribbiani</h4>
+        <p class="professionals__item-descr">photographer for over 6 years</p>
       </div>
       <div class="professionals__item">
         <img class="professionals__item-img" src="assets/img/professionals-3.jpg" alt="">
@@ -80,7 +97,7 @@
       </div>
     </div>
   </section>
-  <section class="video">
+  <section class="video" id="video">
     <div class="container">
       <div class="video__inner">
         <a class="video__link" href="#"><img class="video__link-img" src="assets/img/play-icon.svg" alt=""></a>
@@ -88,23 +105,47 @@
       </div>
     </div>
   </section>
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <div class="container">
       <div class="portfolio__inner">
         <h3 class="portfolio__title">Portfolio</h3>
-        <div class="portfolio__items"><img class="portfolio__item-img" src="" alt="">
-          <img class="portfolio__item-img" src="assets/img/portfolio-1.jpg" alt="">
-          <img class="portfolio__item-img" src="assets/img/portfolio-2.jpg" alt="">
-          <img class="portfolio__item-img" src="assets/img/portfolio-3.jpg" alt="">
-          <img class="portfolio__item-img" src="assets/img/portfolio-4.jpg" alt="">
-          <img class="portfolio__item-img" src="assets/img/portfolio-5.jpg" alt="">
-          <img class="portfolio__item-img" src="assets/img/portfolio-6.jpg" alt="">
+        <div class="portfolio__items">
+          <img class="portfolio__item-img" src="assets/img/portfolio-1-mini.jpg" alt="">
+          <img class="portfolio__item-img" src="assets/img/portfolio-2-mini.jpg" alt="">
+          <img class="portfolio__item-img" src="assets/img/portfolio-3-mini.jpg" alt="">
+          <img class="portfolio__item-img" src="assets/img/portfolio-4-mini.jpg" alt="">
+          <img class="portfolio__item-img" src="assets/img/portfolio-5-mini.jpg" alt="">
+          <img class="portfolio__item-img" src="assets/img/portfolio-6-mini.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services">
+    <div class="container">
+      <h3 class="services__title section-title">Services provided by our studio</h3>
+      <div class="services__items">
+        <div class="services__item">
+          <img class="services__item-img" src="assets/img/print-icon.svg" alt="">
+          <p class="services__item-text">We provide photography services, the price includes image consultation. Also transfer to the location. Or rent a studio.</p>
+          <a class="services__item-btn" href="#">Contact us</a>
+        </div>
+        <div class="services__item">
+          <img class="services__item-img" src="assets/img/video-icon.svg" alt="">
+          <p class="services__item-text">Photographer's services include shooting your story. image selection, as well as departure to the location and transfer home</p>
+          <a class="services__item-btn" href="#">Contact us</a>
+        </div>
+        <div class="services__item">
+          <img class="services__item-img" src="assets/img/camera-icon.svg" alt="">
+          <p class="services__item-text">Photo retouching, issuance 2 weeks after seeding, also retouching your photos (taken in another studio)</p>
+          <a class="services__item-btn" href="#">Contact us</a>
         </div>
       </div>
     </div>
   </section>
 </main>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
 <script src="assets/js/script.js"></script>
 </body>
 
