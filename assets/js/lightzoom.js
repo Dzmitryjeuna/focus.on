@@ -166,10 +166,10 @@
         var winHeight = window.innerHeight ? window.innerHeight : $( window ).height();
 
         if ( winWidth > winHeight ) {
-          width  = "95%";
-          height = "80%";
+          width  = "100%";
+          height = "100%";
         } else {
-          width  = "80%";
+          width  = "100%";
           height = "100%";
         }
 
@@ -179,11 +179,11 @@
 					window.addEventListener( 'orientationchange', function() {
 
             if (window.orientation === 0) {
-              width = "80%";
+              width = "100%";
               height = "100%";
             } else if (window.orientation === 90 || window.orientation === -90) {
-              width = "95%";
-              height = "80%";
+              width = "100%";
+              height = "100%";
             }
 					}, false );
 
