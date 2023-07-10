@@ -79,10 +79,9 @@ a.lightzoom {
 #lz-close {
   display: block;
   position: absolute;
-  top: 10%;
-  right: 38%;
-  /* background: url("image/close.png") no-repeat 5px 5px; */
-  background-color: var(--dr-green);
+  top: 27px;
+  right: 27px;
+  background: url("../img/close-icon.svg") no-repeat 5px 5px;
   width: 16px;
   height: 16px;
   text-indent: -9999px;
