@@ -22,7 +22,7 @@ $(function () {
     infinite: true,
     variableWidth: true,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 3000,
     centerMode: true,
   });
