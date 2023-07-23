@@ -164,6 +164,7 @@ body {
 
 .about {
   margin-bottom: 130px;
+  margin-top: 45px;
   background: linear-gradient(to right, rgb(62 64 55 / 50%), rgb(62 64 66 / 50%)), url(../img/about-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -646,39 +647,7 @@ body {
     flex-direction: column;
     height: 95vh;
   }
-
-  .item__link {
-    font-size: 32px;
-  }
-
-  .nav__item:nth-child(5) {
-    display: none;
-  }
-
-  .nav__item:first-child{
-    margin-top: auto;
-    padding-top: 96px;
-  }
-
-  .nav__item:last-child {
-    margin-top: auto;
-    display: block;
-  }
-
-  .item__socials-link {
-    margin-bottom: 47px;
-  }
-
-  .item__social-link +  .item__social-link{
-    margin-left: 20px;
-  }
-
-  .promo__link-btn {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 52px;
-  }
-
+  
   .burger {
     position: relative;
     display: block;
@@ -750,6 +719,38 @@ body {
     margin-top: -7px;
     height: 32px;
     transition-delay: 0s, 0s, 200ms, 400ms;
+  }
+  
+  .item__link {
+    font-size: 32px;
+  }
+
+  .nav__item:nth-child(5) {
+    display: none;
+  }
+
+  .nav__item:first-child{
+    margin-top: auto;
+    padding-top: 96px;
+  }
+
+  .nav__item:last-child {
+    margin-top: auto;
+    display: block;
+  }
+
+  .item__socials-link {
+    margin-bottom: 47px;
+  }
+
+  .item__social-link +  .item__social-link{
+    margin-left: 20px;
+  }
+
+  .promo__link-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 52px;
   }
 
   .promo__box {
