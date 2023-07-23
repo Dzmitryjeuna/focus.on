@@ -96,6 +96,7 @@ body {
 
 .promo {
   background: url(../img/promo-bg.jpg) no-repeat;
+  background-color: var(--bl);
   background-size: cover;
   background-position: top;
   padding-bottom: 39px;
@@ -675,7 +676,7 @@ body {
   .promo__link-btn {
     display: flex;
     justify-content: center;
-    margin-bottom: 52px;
+    padding-bottom: 52px;
   }
 
   .burger {
@@ -752,7 +753,7 @@ body {
   }
 
   .promo__box {
-    min-height: 100vh;
+    min-height: 70vh;
   }
 
   .promo__box-title span {
@@ -1101,6 +1102,7 @@ body {
   }
   .promo {
     background: url(../img/promo-bg-mini.jpg) no-repeat;
+    background-color: var(--bl);
     padding-bottom: 0;
   }
 }
