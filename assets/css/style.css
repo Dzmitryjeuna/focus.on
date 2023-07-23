@@ -1104,7 +1104,7 @@ body {
   }
   .promo {
     background: url(../img/promo-bg-mini.jpg) no-repeat;
-    background-color: var(--bl);
+    background-color: #01090c;
     padding-bottom: 0;
   }
 }
