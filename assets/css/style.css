@@ -81,6 +81,10 @@ body {
   background-color: var(--lg-green);
 }
 
+.nav__item:last-child {
+  display: none;
+}
+
 .burger {
   display: none;
 }
@@ -538,6 +542,10 @@ body {
     font-size: 110px;
   }
 
+  .promo__box-title span {
+    font-size: 895px;
+  }
+
   .promo__box-title::first-letter {
     font-size: 240px;
   }
@@ -584,7 +592,7 @@ body {
 
   .promo__box-title span {
     font-size: 810px;
-    line-height: 80%;
+    line-height: 44%;
   }
 
   .promo__box-title {
@@ -637,8 +645,17 @@ body {
     font-size: 32px;
   }
 
-  .nav__item:last-child {
+  .nav__item:nth-child(5) {
     display: none;
+  }
+
+  .nav__item:first-child{
+    margin-top: auto;
+  }
+
+  .nav__item:last-child {
+    margin-top: auto;
+    display: block;
   }
 
   .burger {
@@ -720,7 +737,7 @@ body {
 
   .promo__box-title span {
     font-size: 693px;
-    line-height: 80%;
+    line-height: 42%;
     letter-spacing: -107px;
   }
 
@@ -749,8 +766,9 @@ body {
 @media (max-width: 760px) {
   .promo__box-title span {
     font-size: 620px;
-    line-height: 93%;
+    line-height: 60%;
     letter-spacing: -90px;
+    top: 82px;
   }
 
   .promo__box-title {
@@ -762,7 +780,7 @@ body {
   }
 
   .promo__box-subtitle {
-    margin-top: -40px;
+    margin-top: -12px;
   }
 
   .professionals .slick-center.professionals__item {
@@ -903,9 +921,9 @@ body {
 @media (max-width: 620px) {
   .promo__box-title span {
     font-size: 530px;
-    line-height: 125%;
+    line-height: 84%;
     letter-spacing: -77px;
-    top: 73px;
+    top: 60px;
   }
 
   .promo__box-title {
@@ -917,13 +935,32 @@ body {
   }
 
   .promo__box-subtitle {
-    margin-top: -120px;
+    margin-top: -10px;
   }
 }
 
 @media (max-width: 550px) {
   body {
     font-size: 16px;
+  }
+
+  .promo__box-title span {
+    font-size: 530px;
+    line-height: 82%;
+    letter-spacing: -90px;
+    top: 54px;
+  }
+
+  .promo__box-title {
+    font-size: 60px;
+  }
+
+  .promo__box-title::first-letter {
+    font-size: 140px;
+  }
+
+  .promo__box-subtitle {
+    margin-top: -10px;
   }
 
   .about {
@@ -975,6 +1012,26 @@ body {
 @media (max-width: 430px) {
   body {
     font-size: 14px;
+  }
+
+  .promo__box-title span {
+    font-size: 380px;
+    line-height: 82%;
+    letter-spacing: -90px;
+    top: 54px;
+  }
+
+  .promo__box-title {
+    font-size: 60px;
+    margin-top: 60px;
+  }
+
+  .promo__box-title::first-letter {
+    font-size: 107px;
+  }
+
+  .promo__box-subtitle {
+    margin-top: -10px;
   }
 
   .portfolio__title {
