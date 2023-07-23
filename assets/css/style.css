@@ -644,7 +644,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
   }
 
   .item__link {
@@ -753,7 +753,7 @@ body {
   }
 
   .promo__box {
-    min-height: 70vh;
+    min-height: 85vh;
   }
 
   .promo__box-title span {
