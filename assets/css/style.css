@@ -523,6 +523,10 @@ body {
     font-size: 148px;
   }
 
+  .promo__box-title span{
+    line-height: 34%;
+  }
+
   .promo__box-title::first-letter {
     letter-spacing: -150px;
     font-size: 272px;
@@ -750,7 +754,7 @@ body {
   .promo__link-btn {
     display: flex;
     justify-content: center;
-    padding-bottom: 52px;
+    bottom: 52px ;
   }
 
   .promo__box {
