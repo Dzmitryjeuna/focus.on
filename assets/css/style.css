@@ -552,6 +552,7 @@ body {
 
   .promo__box-title {
     font-size: 110px;
+    right: 0;
   }
 
   .promo__box-title span {
