@@ -471,6 +471,10 @@ body {
   .promo__box-title {
     font-size: 163px;
   }
+  
+  .promo__box-title span{
+    line-height: 34%;
+  }
 
   .about__inner {
     padding: 57px 0 315px;
@@ -521,10 +525,6 @@ body {
 @media (max-width: 1262px) {
   .promo__box-title {
     font-size: 148px;
-  }
-
-  .promo__box-title span{
-    line-height: 34%;
   }
 
   .promo__box-title::first-letter {
@@ -754,7 +754,7 @@ body {
   .promo__link-btn {
     display: flex;
     justify-content: center;
-    bottom: 52px ;
+    margin: 52px ;
   }
 
   .promo__box {
