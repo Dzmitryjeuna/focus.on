@@ -164,7 +164,7 @@ body {
 
 .about {
   margin-bottom: 130px;
-  margin-top: 45px;
+  padding-top: 45px;
   background: linear-gradient(to right, rgb(62 64 55 / 50%), rgb(62 64 66 / 50%)), url(../img/about-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
