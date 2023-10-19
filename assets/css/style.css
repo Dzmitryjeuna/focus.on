@@ -73,6 +73,7 @@ body {
   font-weight: 400;
   color: var(--wh);
   padding: 14px 56px;
+  margin-bottom: 20px;
   border-radius: 15px;
   background-color: var(--dr-green);
   transition: all .3s;
@@ -756,7 +757,6 @@ body {
   .promo__link-btn {
     display: flex;
     justify-content: center;
-    margin: 52px ;
   }
 
   .promo__box {
