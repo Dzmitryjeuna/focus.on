@@ -1032,6 +1032,10 @@ body {
     margin-bottom: 20px;
   }
 
+  .services__item-text {
+    margin-right: 0px;
+  }
+
   .remember__title,
   .services__title {
     font-size: 23px;
